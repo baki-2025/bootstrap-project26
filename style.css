@@ -12,6 +12,10 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: "Roboto", sans-serif;
 }
+.section-title h3{
+    font-weight: bold;
+    margin-bottom: 0;
+}
 .hr-style{
     border: 5px dotted white;
     border-bottom: none;
@@ -97,4 +101,16 @@ header{
 }
 .acive-desc span{
  font-weight: 700 !important;
+}
+#tutorial{
+padding: 4% 10%;
+background: #a3d2ca;
+}
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
 }
