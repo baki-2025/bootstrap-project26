@@ -138,3 +138,11 @@ background: #a3d2ca;
         .carousel-indicators{
             bottom: -20px;
         }
+        #contact{
+            padding: 2% 10%;
+            background: #5eaaa8;
+        }
+        .form-gruop label{
+            margin-bottom: 0;
+            font-weight: bold;
+        }
